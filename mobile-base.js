@@ -123,7 +123,7 @@ var init = function (onSelectFeatureFunction) {
                 style
             )
         ]);
-        map.zoomToExtent(vector.getDataExtent());
+        //map.zoomToExtent(vector.getDataExtent());
     });
 
     function getFeatures() {
